@@ -1,0 +1,51 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="cbdefense.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PerfLogging" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="apiSecretKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CHANGE_ME</Value>
+    </Setting>
+    <Setting Name="apiId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CHANGE_ME</Value>
+    </Setting>
+    <Setting Name="apiUri" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://change_me.conferdeploy.net</Value>
+    </Setting>
+    <Setting Name="apiLogs" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">events</Value>
+    </Setting>
+    <Setting Name="maxResults" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">5000</Value>
+    </Setting>
+    <Setting Name="searchWindow" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">3h</Value>
+    </Setting>
+    <Setting Name="defaultApiPrefix" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">/integrationServices/v3/</Value>
+    </Setting>
+    <Setting Name="logOutputPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Program Files\LogRhythm\cbdefense\</Value>
+    </Setting>
+    <Setting Name="fieldSettings" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">{"eventTime":1,"eventType":2,"threatScore":3,"alertScore":4,"alertCategory":5,"threatIndicators":6,"longDescription":-1,"shortDescription":-1,"createTime":-1}</Value>
+    </Setting>
+    <Setting Name="doAutoTimeWindow" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="autoTimeWindow" Type="System.Double" Scope="Application">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="doAutoLogCleanup" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="doDumpRawJson" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="apiResultObjName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">results</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
