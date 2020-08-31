@@ -17,6 +17,7 @@ This collector pulls, formats, and outputs CB Defense events in a pseudo-CEF fla
 #### Major "To-Do's"/Roadmap
 - Documentation is severely lacking at the moment (and by that I mean that it's missing entirely); **priority #1 to address with next release**
 - I haven't yet published the associated LogRhythm MPE rules that I designed around the collector; **priority #2**
+- Add secure storage for CB Defense API key; **priority #3**
 - Add support for v4 "Alerts" API
  - This API functions very differently than the v3 APIs, so it will be a fairly major addition/project to add support
 - Improve multi-threading performance. As stated above, I'm not great with writing multi-threaded programs, so there are probably a *lot* of opportunities here for performance improvements
